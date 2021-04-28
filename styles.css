@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: 900px;
+    margin-top: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    background-image: linear-gradient(to top left, rgb(43, 61, 79), rgb(52, 152, 219));
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255)
+}
+
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ffffff,#ff1670);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.instructions {
+    margin: auto;
+    width: 35%;
+    text-align: left;
+}
+
+.instructions ul {
+    list-style-type: decimal;
+}
+
+.add-items {
+    margin-top: 5%;
+    width: 100%;
+    height: 10%;
+}
+
+input {
+    width: 60%;
+    height: 40%;
+    padding: 0%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+input:focus {
+    background-color: rgb(206, 236, 255);
+}
+
+button {
+    width: 5%;
+    height: 62%;
+    font-size: 1em;
+    background-color: rgb(206, 236, 255);
+}
+
+button:hover {
+    background-color: rgb(52, 152, 219);
+    color: white;
+    border: none;
+}
+
+.the-list li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
