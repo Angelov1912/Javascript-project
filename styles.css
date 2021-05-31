@@ -142,3 +142,24 @@ ul {
     background-color: #f44336;
     color: white;
   }
+
+/*.......Add Media Queries for mobile devices.......*/
+
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 0.8em;
+    }
+
+    h2 {
+      display: none;
+    }
+
+    ul, .add-items {
+      width: 100%;
+      margin: auto;
+      text-align: left;
+    }
+    ul li {
+      font-size: 1.5em;
+    }
+  } 
