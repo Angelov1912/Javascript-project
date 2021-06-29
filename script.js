@@ -37,6 +37,13 @@ document.querySelector(".addButton").onclick = function newElement() {
 	};
   };
 
+//jQuery that assign pressing enter to the function of the addButton
+$("#myInput").keypress(function(event) {
+	if (event.keyCode === 13) {
+		$(".addButton").click();
+}
+});
+
 var list = document.querySelector('ul');
 list.addEventListener('click', function(event) {
 	if (event.target.tagName === 'LI') {
